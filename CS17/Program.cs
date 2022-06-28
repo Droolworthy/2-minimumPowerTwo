@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CS17
 {
@@ -20,7 +20,8 @@ namespace CS17
                 numberDegree *= number;
                 degree++;
             }
-            Console.WriteLine($"Случайное число : {randomNumber} , минимальную степень двойки, превосходящую заданное число : {degree} , итоговое минимальное число : {numberDegree}");
+            Console.WriteLine($"Случайное число : {randomNumber} , минимальную степень двойки, " +
+                $"превосходящую заданное число : {degree} , итоговое минимальное число : {numberDegree}");
         }
     }
 }
